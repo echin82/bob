@@ -52,13 +52,13 @@ As you work through the lessons, Bob will generate additional files under `deliv
 
 ## Lesson sequence
 
-| Lesson                                 | What you build                                                                                        |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Delivery: Define feature specification | `delivery/specs/contract-risk-assessment/feature-spec.md`                                           |
-| Delivery: Define technical solution    | `delivery/specs/contract-risk-assessment/architecture.md`, `design.md`, `plan.md`               |
-| Delivery: Build                        | `delivery/specs/contract-risk-assessment/tasks.md`, implementation code                             |
-| Delivery: Test                         | Unit tests,`delivery/specs/contract-risk-assessment/unit-test-scenarios.md`, `testing-summary.md` |
-| Delivery: Release                      | Pull request,`RELEASE_NOTES.md`                                                                     |
+| Lesson | What you build |
+|--------|---------------|
+| [Delivery: Define feature specification](https://w3.ibm.com/software/winning-products-ai/learn/ai-academy/foundations/ai_native_pdlc_practice/delivery_specs) | `delivery/specs/contract-risk-assessment/feature-spec.md` |
+| [Delivery: Define technical solution](https://w3.ibm.com/software/winning-products-ai/learn/ai-academy/foundations/ai_native_pdlc_practice/delivery_technical_solution) | `delivery/specs/contract-risk-assessment/architecture.md`, `design.md`, `plan.md` |
+| [Delivery: Build](https://w3.ibm.com/software/winning-products-ai/learn/ai-academy/foundations/ai_native_pdlc_practice/delivery_build) | `delivery/specs/contract-risk-assessment/tasks.md`, implementation code |
+| [Delivery: Test](https://w3.ibm.com/software/winning-products-ai/learn/ai-academy/foundations/ai_native_pdlc_practice/delivery_test) | Unit tests, `delivery/specs/contract-risk-assessment/unit-test-scenarios.md`, `testing-summary.md` |
+| [Delivery: Release](https://w3.ibm.com/software/winning-products-ai/learn/ai-academy/foundations/ai_native_pdlc_practice/delivery_release) | Pull request, `RELEASE_NOTES.md` |
 
 ## Course
 
