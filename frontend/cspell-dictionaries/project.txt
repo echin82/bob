@@ -1,0 +1,16 @@
+cra
+Descriptionless
+docx
+DOCX
+fouc
+languagedetector
+Lngs
+multipart
+nojekyll
+nvmrc
+Pipeable
+Platzhalterseite
+plex
+Stephane
+Testbarkeit
+vite
