@@ -1,0 +1,16 @@
+{
+  "name": "contract-risk-assessment-backend",
+  "version": "0.1.0",
+  "description": "Contract Risk Assessment Tool — Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test src/upload.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "multer": "^2.0.0",
+    "sql.js": "^1.14.1",
+    "uuid": "^11.0.3"
+  }
+}

@@ -1,0 +1,71 @@
+/**
+ * Copyright IBM Corp. 2025, 2026
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/theme' as *;
+@use '@carbon/react/scss/type' as *;
+
+// ── Page shell ──────────────────────────────────────────────────────────────
+
+.cra--contracts {
+  &__grid {
+    margin-block-start: $spacing-06;
+  }
+}
+
+// ── Upload section ───────────────────────────────────────────────────────────
+
+.cra--contract-upload {
+  &__heading {
+    @include type-style('heading-03');
+    margin-block-end: $spacing-05;
+    color: $text-primary;
+  }
+
+  &__drop {
+    // Let the FileUploaderDropContainer fill the column width.
+    inline-size: 100%;
+    max-inline-size: 100%;
+  }
+
+  &__notification {
+    margin-block-start: $spacing-04;
+    max-inline-size: 40rem;
+  }
+
+  &__file-item {
+    margin-block-start: $spacing-03;
+  }
+
+  &__loading {
+    margin-block-start: $spacing-05;
+  }
+
+  &__submit {
+    margin-block-start: $spacing-05;
+  }
+}
+
+// ── Queue section ────────────────────────────────────────────────────────────
+
+.cra--contract-queue {
+  &__heading {
+    @include type-style('heading-03');
+    margin-block-end: $spacing-05;
+    color: $text-primary;
+  }
+
+  &__empty {
+    @include type-style('body-01');
+    color: $text-secondary;
+    padding-block: $spacing-05;
+  }
+
+  &__list {
+    inline-size: 100%;
+  }
+}

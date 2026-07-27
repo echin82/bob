@@ -1,0 +1,7 @@
+# Dependencies
+node_modules/
+
+# Runtime artefacts — never commit to version control
+uploads/
+data.db
+
